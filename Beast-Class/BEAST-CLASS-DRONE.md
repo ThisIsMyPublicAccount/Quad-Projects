@@ -5,9 +5,7 @@
 This repository documents my FPV build of a Beast-Class drone. It's a large 13" prop, X-style airframe optimized for speed, maneuverability, and robustness. I built this both to learn and because it's badass.
 
 
-## Architecture & High-level Block Diagram (Mermaid)
-
-Below is a Mermaid-style block diagram (subgraphs and labeled links) formatted to match Mermaid examples from mermaid.js.org. It shows power, ESCs/motors, the flight controller, peripherals and payload wiring at a high level.
+## Architecture & High-level Block Diagram
 
 ```mermaid
 flowchart TB
@@ -54,13 +52,6 @@ flowchart TB
   FC --> TEL
   TEL --> ANT
   FC --> CAM
-
-  subgraph PAYLOAD
-    PAY[1 kg test payload]
-  end
-
-  PAY --> PWRLOAD[Optional power/sensor wiring]
-  PWRLOAD --> PDB
 ```
 
 ## Parts & Links (as supplied)
@@ -122,7 +113,7 @@ flowchart TB
 
 - Initial hover: tethered low-throttle to verify CG and vibrations.
 - Incremental tuning: conservative PID increases, log with blackbox after each change.
-- Final tests: document full-power runs, payload runs with 1 kg, and max runtime tests.
+- Final tests: document full-power runs, and max runtime tests.
 
 ## Safety Checklist (short)
 
