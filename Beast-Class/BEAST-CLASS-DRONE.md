@@ -63,7 +63,7 @@ flowchart TB
 | Flight Controller | BrainFPV Radix 2 HD — high-performance IMU/gyro |
 | ESCs | APD-120F3 series |
 | Motors | MAD Polar XC5000 — 380 kV (matched to 13" props) |
-| Camera / Video | DJI O4 Pro air-unit — record exact model and mounting notes |
+| Camera / Video | DJI O4 Pro air-unit |
 | Batteries | High-discharge Zeee 6S Lipo Battery 10000mAh 22.2V (6S recommended) |
 | Telemetry Antenna | RadioMaster RP3 ELRS Receiver 2.4GHz ExpressLRS Nano Receiver FPV RX Module Receiver Long Range Low Latency (antenna orientation matters) |
 | GPS | SEQURE M10-25Q FPV GPS Module with QMC5883L Compass Dual Protocol |
@@ -105,9 +105,9 @@ flowchart TB
 
 - Keep blackbox logging enabled for all test flights.
 - Store Betaflight dumps and diffs in as you iterate. I kept multiple dumps across tuning runs (see that folder for prior dumps).
-- Thermal tests: (blank) — NOTE: For me — add thermal test results, measured temps, and thermal images here
+- Thermal tests: (blank) 
 ![Thermal test](pictures/2.jpg)
-- GPU/ground station setup: (blank) — NOTE: For me — add notes about OSD/FPV video station and GPU/hardware used for capture and analysis.
+- GPU/ground station setup
 
 ## Flight Testing
 
