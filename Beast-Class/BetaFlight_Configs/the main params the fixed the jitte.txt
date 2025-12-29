@@ -1,0 +1,10 @@
+the main params the fixed the jitter
+
+
+set dyn_notch_count = 3
+set dyn_notch_q 
+
+the controls Hz filtering
+
+
+we maybe able to go back to proshot1000 abut with these vals tuned
