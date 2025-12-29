@@ -88,7 +88,7 @@ flowchart TB
 - Continuity checks: perform continuity tests with a multimeter for short circuits before connecting the battery.
 - Initial power-up: (Do Continuity checks before this step) use a bench power supply set below the maximum battery voltage (below 50 V) to verify powering of FC/ESCs and that nothing overheats.
 
-![Beast test - 2025-10-12](../../BMF/Drone_work_research_photos/wiring.png)
+![Wiring](pictures/3.png)
 
 
 ## Mechanical Integration & CAD
@@ -115,7 +115,7 @@ flowchart TB
 - Keep blackbox logging enabled for all test flights.
 - Store Betaflight dumps and diffs in as you iterate. I kept multiple dumps across tuning runs (see that folder for prior dumps).
 - Thermal tests: (blank) — NOTE: For me — add thermal test results, measured temps, and thermal images here
-![Beast test - 2025-10-26](../../BMF/Drone_work_research_photos/IMG_20251026_193532.jpg)
+![Thermal test](pictures/2.jpg)
 - GPU/ground station setup: (blank) — NOTE: For me — add notes about OSD/FPV video station and GPU/hardware used for capture and analysis.
 
 ## Flight Testing
